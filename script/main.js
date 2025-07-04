@@ -4,8 +4,8 @@ const typedTextSpan = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
 const words = [" A Web Developer", "Just a Chill Guy"];
-const typingDelay = 200;
-const erasingDelay = 200;
+const typingDelay = 50;
+const erasingDelay = 50;
 const newLetterDelay = 1000;
 let index = 0;
 let charIndex = 0;
